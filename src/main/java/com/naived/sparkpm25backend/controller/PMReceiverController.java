@@ -9,6 +9,7 @@ public class PMReceiverController {
 
     @PostMapping(value = "/submit")
     public void submitPMInfo(String info){
+        System.out.println(info);
         PMInfoWebsocket.sendAll(info);
     }
 
