@@ -1,4 +1,4 @@
-package com.naived.sparkpm25backend;
+package com.naived.sparkpm25b;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SparkPm25backendApplicationTests {
+public class SparkPm25bApplicationTests {
 
     @Test
     public void contextLoads() {

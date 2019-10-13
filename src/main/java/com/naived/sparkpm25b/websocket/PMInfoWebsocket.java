@@ -1,4 +1,4 @@
-package com.naived.sparkpm25backend.websocket;
+package com.naived.sparkpm25b.websocket;
 
 import org.springframework.stereotype.Component;
 
@@ -34,6 +34,7 @@ public class PMInfoWebsocket {
     }
 
     public static void sendAll(String message){
+        System.out.println(websockets.size());
         Arrays.asList(websockets.toArray()).forEach(item -> {
             PMInfoWebsocket websocket = (PMInfoWebsocket) item;
             try {
